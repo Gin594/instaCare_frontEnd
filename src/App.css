@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  font-family: 'Rasa', serif;
+  font-size: 24px;
+  height: 100vh;
+}
+
+.content {
+  height: 100%;
+  padding-top: 8vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.row {
+  display: flex;
+  height: 100%;
+  overflow: auto;
+}
+
+.request-card {
+  text-align:left;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  font-family: 'Rasa';
+  font-size: 24px;
+}
+
+.nav-column {
+  position: fixed;
+  height:100%;
+}
+
+.content-column {
+  height:100%;
+  overflow: scroll;
+}
+
+.google-map-custom-control-container {
+  margin: 5px;
+}
+.google-map-custom-control {
+  cursor: pointer;
+  direction: ltr;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", Arial, sans-serif;
+  -webkit-user-select: none;
+  font-size: 16px !important;
+  background-color: rgb(255, 255, 255);
+  padding: 1px 6px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.14902);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+  min-width: 28px;
+  font-weight: 500;
+}
+/*.google-map-custom-control:hover {*/
+/*  font-weight: 900 !important;*/
+/*}*/
