@@ -1,8 +1,7 @@
 ## Installation Instruction
 No installation required.
 
-How to Run
-Go to: https://instacare.today
+Go to: https://instacare.today <br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
